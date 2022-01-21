@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    android:id="@+id/parent">
+
+
+    <Chronometer
+        android:id="@+id/chronView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:layout_alignParentLeft="true"
+        />
+
+    <Button
+        android:id="@+id/startView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onStartClick"
+        android:text="Start"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="@id/chronView"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boatsRecView"
+        android:layout_below="@id/chronView"/>
+
+    <Button
+        android:id="@+id/gotoMapBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onGotoMapClick"
+        android:text="&lt; Map"
+        android:layout_above="@+id/boatEdtTxt"/>
+
+
+    <EditText
+        android:id="@+id/boatEdtTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="Boat"
+        android:inputType="textPersonName"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onAddClick"
+        android:text="Add"
+        android:layout_toRightOf="@id/boatEdtTxt"
+        android:layout_alignBottom="@id/boatEdtTxt"
+ />
+
+
+</RelativeLayout>

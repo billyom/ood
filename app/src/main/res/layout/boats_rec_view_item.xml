@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:id="@+id/parent"
+    android:background="@android:color/white"
+    android:foreground="?attr/selectableItemBackground"
+    >
+
+    <TextView
+        android:id="@+id/boatNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boat Name"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/finishTimeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hh:mm:ss"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/boatNameView"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <Button
+        android:id="@+id/finishView"
+        android:text="Finish"
+        android:onClick="onFinishClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/finishTimeView"
+        android:paddingLeft="10dp"/>
+
+</RelativeLayout>
