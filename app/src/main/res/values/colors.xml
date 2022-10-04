@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="water">#FD14A9EF</color>
+    <color name="droppedMark">#FDE3690B</color>
+    <color name="undroppedMark">#FD14A9EF</color>
 </resources>

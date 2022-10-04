@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/bomahony/AndroidStudioProjects/MyApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/bomahony/AndroidStudioProjects/MyApp/app/src/main/res/drawable/ic_boat.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/bomahony/AndroidStudioProjects/MyApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/bomahony/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/bomahony/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_map.xml" value="0.41770833333333335" />
         <entry key="..\:/Users/bomahony/AndroidStudioProjects/MyApp/app/src/main/res/layout/boats_rec_view_item.xml" value="0.5421875" />
